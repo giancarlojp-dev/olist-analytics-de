@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Python ──────────────────
+*.pyo
+
+# ── Datos (nunca al repo) ───
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# ── Credenciales ─────────────
+*.json
+!.env.example
+
+# ── dbt ─────────────────────
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# ── Airflow ──────────────────
+airflow_home/
+airflow.cfg
+airflow.db
+
+# ── OS ───────────────────────
+Thumbs.db
