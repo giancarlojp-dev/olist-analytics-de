@@ -17,6 +17,17 @@ This project is being built week by week. Follow the progress in the commits.
 
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k+ orders (2016–2018)
 
+## Dataset Setup
+
+Download the dataset from Kaggle using the CLI:
+
+```bash
+pip install kaggle
+kaggle datasets download olistbr/brazilian-ecommerce --path ./data/raw --unzip
+```
+
+Or download manually from: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
 ## Stack
 
 | Layer         | Tool            |
